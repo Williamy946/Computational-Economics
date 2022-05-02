@@ -23,7 +23,7 @@ Our third main business goal is to **create an easily repeatable design process*
 
  Dynamic Prizing can be divided into the dynamic demanding caused dynamic prizing and the dynamic storage caused dynamic prizing. In the specific scenario of airbnb, it is the first genre of dynamic prizing.
 
-![image-20220502191310575](./readme figure/image-20220502191310575.png)
+![image-20220502191310575](readme_figure/image-20220502191310575.png)
 
 
 
@@ -35,13 +35,13 @@ Our third main business goal is to **create an easily repeatable design process*
 
 We analyze the public datasets on [Kaggle](https://www.kaggle.com/airbnb/seattle) of airbnb in Seattle. 
 
-![image-20220502201644167](readme figure/image-20220502201903463.png)And we use the prize of homestay, accommodation, location and history comments.
+![image-20220502201644167](readme_figure/image-20220502201903463.png)And we use the prize of homestay, accommodation, location and history comments.
 
 #### Data Preprocessing
 
 We segment the whole dataset into ten areas and assume the inner-region competition is significantly larger than the inter-region competition for simplifying.
 
-![image-20220502201958739](readme figure/image-20220502201958739.png)
+![image-20220502201958739](readme_figure/image-20220502201958739.png)
 
 ### Model Architecture
 
@@ -49,13 +49,13 @@ We segment the whole dataset into ten areas and assume the inner-region competit
 
 We simulate the guests' behavior by exploiting the distribution of the given dataset.
 
-![image-20220502202347812](readme figure/image-20220502202347812.png)
+![image-20220502202347812](readme_figure/image-20220502202347812.png)
 
 #### Model Selection
 
 After considering the availability of needed data, the application scenario, and the parameter space, we chose the DDPG model as follows with its workflow:
 
-![image-20220502203013962](readme figure/image-20220502203013962.png)![image-20220502203114884](readme figure/image-20220502203114884.png)
+![image-20220502203013962](readme_figure/image-20220502203013962.png)![image-20220502203114884](readme_figure/image-20220502203114884.png)
 
 
 
