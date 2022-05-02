@@ -23,7 +23,7 @@ Our third main business goal is to **create an easily repeatable design process*
 
  Dynamic Prizing can be divided into the dynamic demanding caused dynamic prizing and the dynamic storage caused dynamic prizing. In the specific scenario of airbnb, it is the first genre of dynamic prizing.
 
-![image-20220502191310575](readme figure/image-20220502191310575.png)
+![image-20220502191310575](./readme figure/image-20220502191310575.png)
 
 
 
